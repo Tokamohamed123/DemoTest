@@ -30,10 +30,10 @@ test('E2E', async({page, loginPage , productPage, mandatoryDeatailsPage})=>{
 
       // 3️⃣ Fill mandatory details and complete order
   await mandatoryDeatailsPage.fillEmail('test@example.com');
-//   await mandatoryDeatailsPage.enterLastName('Test');
-//   await mandatoryDeatailsPage.fillAddress('123 Main Street');
-//   await mandatoryDeatailsPage.enterPhone('(907) 247-9199');
-//   await mandatoryDeatailsPage.completeOrder();
+   await mandatoryDeatailsPage.enterLastName('Test');
+   await mandatoryDeatailsPage.fillAddress('123 Main Street');
+   await mandatoryDeatailsPage.enterPhone('(907) 247-9199');
+   await mandatoryDeatailsPage.completeOrder();
   // 4️⃣ Wait a bit before closing
   await page.waitForTimeout(3000);
   await page.close();

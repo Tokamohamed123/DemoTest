@@ -1,0 +1,318 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Skip to content" [ref=e7] [cursor=pointer]:
+          - /url: "#checkout-main"
+        - generic [ref=e8]:
+          - banner [ref=e9]:
+            - link "KIB Connect Demo Store 4" [ref=e16] [cursor=pointer]:
+              - /url: https://kib-connect-demo-store-4.myshopify.com/
+              - generic: KIB Connect Demo Store 4
+          - generic [ref=e17]:
+            - generic [ref=e19]:
+              - main [ref=e20]:
+                - heading "KIB Connect Demo Store 4 Checkout" [level=1] [ref=e21]
+                - generic [ref=e23]:
+                  - generic [ref=e24]:
+                    - region "Contact" [ref=e25]:
+                      - generic [ref=e29]:
+                        - generic [ref=e30]:
+                          - heading "Contact" [level=2] [ref=e31]
+                          - link "Sign in" [ref=e32] [cursor=pointer]:
+                            - /url: https://kib-connect-demo-store-4.myshopify.com/customer_authentication/login?locale=en-US&return_to=%2Fcheckouts%2Fcn%2FhWN8QoBzdH2Atqh6dEYZWPyd%2Fen-us%3F_r%3DAQABBcIygozE5uTzlpcYByLK7DBg6q_j84n2JbffI3Lz%26locale%3Den-US
+                        - generic [ref=e39]:
+                          - generic:
+                            - generic:
+                              - generic: Email or mobile phone number
+                          - textbox "Email or mobile phone number" [ref=e41]: test@example.com
+                    - group "Delivery" [ref=e46]:
+                      - generic [ref=e47]:
+                        - heading "Delivery" [level=2] [ref=e49]
+                        - generic [ref=e53]:
+                          - generic [ref=e57]:
+                            - generic [ref=e58]:
+                              - generic [ref=e62]:
+                                - generic:
+                                  - generic:
+                                    - generic: Country/Region
+                                - combobox "Country/Region" [ref=e63]:
+                                  - option "United States" [selected]
+                                - generic:
+                                  - generic:
+                                    - img
+                              - generic [ref=e64]:
+                                - generic [ref=e66]:
+                                  - generic:
+                                    - generic:
+                                      - generic: First name (optional)
+                                  - textbox "First name (optional)" [ref=e68]
+                                - generic [ref=e70]:
+                                  - generic:
+                                    - generic:
+                                      - generic: Last name
+                                  - textbox "Last name" [ref=e72]: Test
+                              - generic [ref=e78]:
+                                - generic:
+                                  - generic:
+                                    - generic: Address
+                                - generic [ref=e79]:
+                                  - combobox "Address" [expanded] [active] [ref=e80]:
+                                    - text: 123 Main St
+                                    - listbox [ref=e81]:
+                                      - option "123 Main St, Abercrombie ND 58001, United States" [selected] [ref=e82] [cursor=pointer]:
+                                        - generic "123 Main St, Abercrombie ND 58001, United States" [ref=e83]:
+                                          - generic "123 Main St, Abercrombie ND 58001, United States" [ref=e84]:
+                                            - generic "123 Main St, Abercrombie ND 58001, United States" [ref=e85]:
+                                              - mark [ref=e86]: "123"
+                                            - mark [ref=e87]: Main
+                                          - mark [ref=e88]: St
+                                          - text: ", Abercrombie ND 58001, United States"
+                                      - option "123 Main St, Acosta PA 15520, United States" [ref=e89] [cursor=pointer]:
+                                        - generic "123 Main St, Acosta PA 15520, United States" [ref=e90]:
+                                          - generic "123 Main St, Acosta PA 15520, United States" [ref=e91]:
+                                            - generic "123 Main St, Acosta PA 15520, United States" [ref=e92]:
+                                              - mark [ref=e93]: "123"
+                                            - mark [ref=e94]: Main
+                                          - mark [ref=e95]: St
+                                          - text: ", Acosta PA 15520, United States"
+                                      - option "123 Main St, Addyston OH 45001, United States" [ref=e96] [cursor=pointer]:
+                                        - generic "123 Main St, Addyston OH 45001, United States" [ref=e97]:
+                                          - generic "123 Main St, Addyston OH 45001, United States" [ref=e98]:
+                                            - generic "123 Main St, Addyston OH 45001, United States" [ref=e99]:
+                                              - mark [ref=e100]: "123"
+                                            - mark [ref=e101]: Main
+                                          - mark [ref=e102]: St
+                                          - text: ", Addyston OH 45001, United States"
+                                      - option "123 Main St, Albion OK 74521, United States" [ref=e103] [cursor=pointer]:
+                                        - generic "123 Main St, Albion OK 74521, United States" [ref=e104]:
+                                          - generic "123 Main St, Albion OK 74521, United States" [ref=e105]:
+                                            - generic "123 Main St, Albion OK 74521, United States" [ref=e106]:
+                                              - mark [ref=e107]: "123"
+                                            - mark [ref=e108]: Main
+                                          - mark [ref=e109]: St
+                                          - text: ", Albion OK 74521, United States"
+                                      - option "123 Main St, Albion RI 02802, United States" [ref=e110] [cursor=pointer]:
+                                        - generic "123 Main St, Albion RI 02802, United States" [ref=e111]:
+                                          - generic "123 Main St, Albion RI 02802, United States" [ref=e112]:
+                                            - generic "123 Main St, Albion RI 02802, United States" [ref=e113]:
+                                              - mark [ref=e114]: "123"
+                                            - mark [ref=e115]: Main
+                                          - mark [ref=e116]: St
+                                          - text: ", Albion RI 02802, United States"
+                                  - img [ref=e119]
+                              - generic [ref=e124]:
+                                - generic:
+                                  - generic:
+                                    - generic: Apartment, suite, etc. (optional)
+                                - textbox "Apartment, suite, etc. (optional)" [ref=e126]
+                              - generic [ref=e127]:
+                                - generic [ref=e129]:
+                                  - generic:
+                                    - generic:
+                                      - generic: City
+                                  - textbox "City" [ref=e131]: Abercrombie
+                                - generic [ref=e134]:
+                                  - generic:
+                                    - generic:
+                                      - generic: State
+                                  - combobox "State" [ref=e135]:
+                                    - option "Alabama"
+                                    - option "Alaska"
+                                    - option "American Samoa"
+                                    - option "Arizona"
+                                    - option "Arkansas"
+                                    - option "California"
+                                    - option "Colorado"
+                                    - option "Connecticut"
+                                    - option "Delaware"
+                                    - option "Micronesia"
+                                    - option "Florida"
+                                    - option "Georgia"
+                                    - option "Guam"
+                                    - option "Hawaii"
+                                    - option "Idaho"
+                                    - option "Illinois"
+                                    - option "Indiana"
+                                    - option "Iowa"
+                                    - option "Kansas"
+                                    - option "Kentucky"
+                                    - option "Louisiana"
+                                    - option "Maine"
+                                    - option "Marshall Islands"
+                                    - option "Maryland"
+                                    - option "Massachusetts"
+                                    - option "Michigan"
+                                    - option "Minnesota"
+                                    - option "Mississippi"
+                                    - option "Missouri"
+                                    - option "Montana"
+                                    - option "Nebraska"
+                                    - option "Nevada"
+                                    - option "New Hampshire"
+                                    - option "New Jersey"
+                                    - option "New Mexico"
+                                    - option "New York"
+                                    - option "North Carolina"
+                                    - option "North Dakota" [selected]
+                                    - option "Northern Mariana Islands"
+                                    - option "Ohio"
+                                    - option "Oklahoma"
+                                    - option "Oregon"
+                                    - option "Palau"
+                                    - option "Pennsylvania"
+                                    - option "Puerto Rico"
+                                    - option "Rhode Island"
+                                    - option "South Carolina"
+                                    - option "South Dakota"
+                                    - option "Tennessee"
+                                    - option "Texas"
+                                    - option "Utah"
+                                    - option "Vermont"
+                                    - option "Virginia"
+                                    - option "Washington"
+                                    - option "Washington DC"
+                                    - option "West Virginia"
+                                    - option "Wisconsin"
+                                    - option "Wyoming"
+                                    - option "U.S. Virgin Islands"
+                                    - option "Armed Forces Americas"
+                                    - option "Armed Forces Europe"
+                                    - option "Armed Forces Pacific"
+                                  - generic:
+                                    - generic:
+                                      - img
+                                - generic [ref=e138]:
+                                  - generic:
+                                    - generic:
+                                      - generic: ZIP code
+                                  - textbox "ZIP code" [ref=e140]: "58001"
+                              - generic [ref=e143]:
+                                - generic:
+                                  - generic:
+                                    - generic: Phone
+                                - generic [ref=e144]:
+                                  - textbox "Phone" [ref=e145]
+                                  - button "More information about Phone" [ref=e148] [cursor=pointer]:
+                                    - img [ref=e150]
+                              - generic [ref=e156]:
+                                - generic [ref=e157]:
+                                  - checkbox "Save this information for next time" [ref=e158] [cursor=pointer]
+                                  - generic:
+                                    - generic:
+                                      - img
+                                - generic [ref=e159] [cursor=pointer]: Save this information for next time
+                            - generic [ref=e160]:
+                              - textbox [ref=e161]
+                              - textbox [ref=e162]: Test
+                              - textbox [ref=e163]: 123 Main St
+                              - textbox [ref=e164]
+                              - textbox [ref=e165]: Abercrombie
+                              - textbox [ref=e166]: US
+                              - textbox [ref=e167]: ND
+                              - textbox [ref=e168]: ND
+                              - textbox [ref=e169]: ND
+                              - textbox [ref=e170]: "58001"
+                              - textbox [ref=e171]
+                          - generic [ref=e172]:
+                            - heading "Shipping method" [level=2] [ref=e173]
+                            - generic [ref=e176]:
+                              - generic [ref=e180]:
+                                - radio "Loading…" [disabled]
+                              - generic [ref=e190]:
+                                - radio "Loading…" [disabled]
+                    - region "Payment" [ref=e199]:
+                      - group "Payment" [ref=e203]:
+                        - generic [ref=e204]:
+                          - heading "Payment" [level=2] [ref=e205]
+                          - paragraph [ref=e206]: All transactions are secure and encrypted.
+                        - generic [ref=e209]:
+                          - generic [ref=e215]:
+                            - heading "KIB - Postpay" [level=3] [ref=e218]
+                            - paragraph [ref=e223]: Click here to continue with KIB BNPL
+                          - group "Billing address" [ref=e224]:
+                            - heading "Billing address" [level=3] [ref=e225]
+                            - generic [ref=e227]:
+                              - generic [ref=e229] [cursor=pointer]:
+                                - radio "Same as shipping address" [checked] [ref=e231]
+                                - generic [ref=e232]: Same as shipping address
+                              - generic [ref=e234] [cursor=pointer]:
+                                - radio "Use a different billing address" [ref=e236]
+                                - generic [ref=e237]: Use a different billing address
+                      - button "Complete order" [ref=e247] [cursor=pointer]:
+                        - generic:
+                          - generic: Complete order
+                  - button [ref=e249] [cursor=pointer]: Submit
+              - contentinfo [ref=e250]:
+                - list [ref=e254]:
+                  - listitem [ref=e255]:
+                    - button "Privacy policy" [ref=e256] [cursor=pointer]:
+                      - generic: Privacy policy
+            - complementary [ref=e259]:
+              - generic [ref=e262]:
+                - heading "Order summary" [level=2] [ref=e263]
+                - generic [ref=e266]:
+                  - region "Shopping cart" [ref=e267]:
+                    - heading "Shopping cart" [level=3] [ref=e269]
+                    - table "Shopping cart" [ref=e270]:
+                      - rowgroup [ref=e271]:
+                        - row "Product image Description Quantity Price":
+                          - columnheader "Product image" [ref=e272]
+                          - columnheader "Description" [ref=e273]
+                          - columnheader "Quantity" [ref=e274]
+                          - columnheader "Price" [ref=e275]
+                      - rowgroup [ref=e276]:
+                        - row "Quantity 1 Test Product 1 KWD 10.000" [ref=e277]:
+                          - cell "Quantity 1" [ref=e278]:
+                            - generic [ref=e279]:
+                              - img [ref=e282]
+                              - generic [ref=e289]:
+                                - generic [ref=e290]: Quantity
+                                - text: "1"
+                          - cell "Test Product" [ref=e291]:
+                            - paragraph [ref=e293]: Test Product
+                          - cell "1":
+                            - generic [ref=e294]: "1"
+                          - cell "KWD 10.000" [ref=e295]:
+                            - generic [ref=e297]: KWD 10.000
+                  - generic:
+                    - generic:
+                      - generic:
+                        - text: Scroll for more items
+                        - generic:
+                          - img
+                - generic [ref=e298]:
+                  - heading "Cost summary" [level=3] [ref=e300]
+                  - table "Cost summary" [ref=e301]:
+                    - rowgroup [ref=e302]:
+                      - row "Item Value" [ref=e303]:
+                        - columnheader "Item" [ref=e304]
+                        - columnheader "Value" [ref=e305]
+                    - rowgroup [ref=e306]:
+                      - row "Subtotal KWD 10.000" [ref=e307]:
+                        - rowheader "Subtotal" [ref=e308]
+                        - cell "KWD 10.000" [ref=e309]
+                      - row "Shipping" [ref=e310]:
+                        - rowheader "Shipping" [ref=e311]:
+                          - generic [ref=e313]: Shipping
+                        - cell [ref=e314]
+                      - row "Total KWD 10.000" [ref=e317]:
+                        - rowheader "Total" [ref=e318]:
+                          - strong [ref=e319]: Total
+                        - cell "KWD 10.000" [ref=e320]:
+                          - strong [ref=e322]: KWD 10.000
+      - progressbar [ref=e324]
+    - generic "Suggestions" [ref=e326]:
+      - generic [ref=e327]:
+        - heading "Suggestions" [level=3] [ref=e328]
+        - button "Close suggestions" [ref=e329] [cursor=pointer]:
+          - img [ref=e331]
+  - generic [ref=e333]: Opens external website in a new window.
+  - generic [ref=e334]: Opens in a new window.
+  - generic [ref=e335]: Opens external website.
+  - status [ref=e336]: "Updated total price: KWD 10.0005 items available"
+  - alert [ref=e337]: Your order’s being processed.
+```

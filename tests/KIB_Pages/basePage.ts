@@ -6,6 +6,8 @@ export default class basePage {
     }
 
        protected async enterTextToElement(element: Locator, text: string) {
+        // const target = element.first();
+  
         await element.scrollIntoViewIfNeeded();           // Scroll للعنصر لو مش ظاهر
         await element.waitFor({ state: 'visible', timeout: 10000 });  // انتظر يظهر
         await element.fill(text);                         // اكتب فيه
