@@ -1,0 +1,27 @@
+{
+  "name": "test3-with-ar-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean:reports": "rimraf allure-report allure-results && mkdirp allure-report allure-results",
+    "generate:reports": "npx allure generate ./allure-results --clean ",
+    "pretest": "npm run clean:reports",
+    "script:to:run": "npx playwright test pom",
+    "test": "npm run script:to:run || npm run posttest "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.1",
+    "@types/node": "^25.2.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.5",
+    "mkdirp": "^3.0.1",
+    "rimraf": "^6.1.2",
+    "ts-node": "^10.9.2"
+  }
+}

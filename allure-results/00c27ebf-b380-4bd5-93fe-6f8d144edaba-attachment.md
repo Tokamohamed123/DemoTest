@@ -1,0 +1,128 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - generic [ref=e3]:
+    - complementary [ref=e6]:
+      - paragraph [ref=e10]: Welcome to our store
+    - banner [ref=e11]:
+      - generic [ref=e12]:
+        - heading "KIB Connect Demo Store 4" [level=1] [ref=e13]
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - link "KIB Connect Demo Store 4" [ref=e17] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e18]: KIB Connect Demo Store 4
+            - navigation [ref=e21]:
+              - list [ref=e24]:
+                - generic:
+                  - link "Home" [ref=e25] [cursor=pointer]:
+                    - /url: /
+                    - generic [ref=e26]: Home
+                  - link "Catalog" [ref=e27] [cursor=pointer]:
+                    - /url: /collections/all
+                    - generic [ref=e28]: Catalog
+                  - link "Contact" [ref=e29] [cursor=pointer]:
+                    - /url: /pages/contact
+                    - generic [ref=e30]: Contact
+          - generic [ref=e31]:
+            - button "Search" [ref=e33] [cursor=pointer]:
+              - generic:
+                - img
+            - generic [ref=e34]:
+              - button "Account" [ref=e36] [cursor=pointer]:
+                - img [ref=e38]
+              - button "Cart" [ref=e42] [cursor=pointer]:
+                - generic [ref=e43]:
+                  - generic:
+                    - img
+                  - generic [ref=e44]:
+                    - status:
+                      - generic [ref=e46]: "Total items in cart: 0"
+  - main [ref=e47]:
+    - generic [ref=e50]:
+      - generic:
+        - img
+      - generic:
+        - generic:
+          - paragraph: Browse our latest products
+        - link "Shop all" [ref=e51] [cursor=pointer]:
+          - /url: /collections/all
+    - generic [ref=e54]:
+      - heading "Products" [level=3] [ref=e59]
+      - generic [ref=e60]:
+        - generic [ref=e62]:
+          - link "Stainless Steel Water Bottle - 32oz" [ref=e63] [cursor=pointer]:
+            - /url: /products/stainless-steel-water-bottle-32oz?variant=45994825318599
+            - generic [ref=e64]: Stainless Steel Water Bottle - 32oz
+          - generic [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]:
+              - link "Stainless Steel Water Bottle - 32oz" [ref=e67]:
+                - /url: "\n/products/stainless-steel-water-bottle-32oz?variant=45994825318599"
+                - img "Stainless Steel Water Bottle - 32oz" [ref=e73]
+              - generic [ref=e75]: Sold out
+            - link "Stainless Steel Water Bottle - 32oz" [ref=e76]:
+              - /url: "\n/products/stainless-steel-water-bottle-32oz?variant=45994825318599"
+              - paragraph [ref=e78]: Stainless Steel Water Bottle - 32oz
+            - generic [ref=e80]: 29.990 KD
+        - generic [ref=e82]:
+          - link "Test Product" [ref=e83] [cursor=pointer]:
+            - /url: /products/test-product?variant=45944350965959
+            - generic [ref=e84]: Test Product
+          - generic [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]:
+              - link [ref=e88]:
+                - /url: "\n/products/test-product?variant=45944350965959"
+                - generic [ref=e89]: Test Product
+              - generic:
+                - generic:
+                  - status
+                  - button "Add" [ref=e90]:
+                    - generic [ref=e91]:
+                      - generic:
+                        - img
+                      - generic: Add
+                    - generic [ref=e92]: Added
+            - link "Test Product" [ref=e93]:
+              - /url: "\n/products/test-product?variant=45944350965959"
+              - paragraph [ref=e95]: Test Product
+            - generic [ref=e97]: 10.000 KD
+        - generic [ref=e99]:
+          - link "Test product 2" [ref=e100] [cursor=pointer]:
+            - /url: /products/test-product-2?variant=45983024152775
+            - generic [ref=e101]: Test product 2
+          - generic [ref=e102] [cursor=pointer]:
+            - generic [ref=e103]:
+              - link [ref=e105]:
+                - /url: "\n/products/test-product-2?variant=45983024152775"
+                - generic [ref=e106]: Test product 2
+              - generic:
+                - generic:
+                  - status
+            - link "Test product 2" [ref=e107]:
+              - /url: "\n/products/test-product-2?variant=45983024152775"
+              - paragraph [ref=e109]: Test product 2
+            - generic [ref=e111]: 550.000 KD
+  - contentinfo [ref=e112]:
+    - generic [ref=e115]:
+      - generic [ref=e117]:
+        - heading "Join our email list" [level=2] [ref=e119]
+        - paragraph [ref=e121]: Get exclusive deals and early access to new products.
+      - generic [ref=e124]:
+        - generic [ref=e125]: Email
+        - textbox "Email" [ref=e126]:
+          - /placeholder: Email address
+        - button "Sign up" [ref=e127]:
+          - img [ref=e128]
+  - generic [ref=e133]:
+    - generic [ref=e135]:
+      - text: © 2026
+      - link "KIB Connect Demo Store 4" [ref=e136] [cursor=pointer]:
+        - /url: /
+      - text: ","
+      - link "Powered by Shopify" [ref=e137] [cursor=pointer]:
+        - /url: https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+    - button "Terms and Policies" [ref=e139] [cursor=pointer]
+```

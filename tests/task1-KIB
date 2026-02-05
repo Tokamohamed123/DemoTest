@@ -1,0 +1,10 @@
+import { test,expect } from "@playwright/test";
+import { title } from "node:process";
+
+test('My first test',async({page})=>{
+    await page.goto('https://kib-connect-demo-store-4.myshopify.com/password')
+    await expect(page).toHaveTitle('KIB Connect Demo Store 4');
+} 
+
+
+);
